@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81E14DB12CDF93AA00449BF5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 81E14DB02CDF93AA00449BF5 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		81E14D972CDF909D00449BF5 /* HW41.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW41.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E14DB12CDF93AA00449BF5 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = HW41;
 			packageProductDependencies = (
+				81E14DB02CDF93AA00449BF5 /* SnapKit */,
 			);
 			productName = HW41;
 			productReference = 81E14D972CDF909D00449BF5 /* HW41.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 81E14D8E2CDF909D00449BF5;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				81E14DAF2CDF93AA00449BF5 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 81E14D982CDF909D00449BF5 /* Products */;
 			projectDirPath = "";
@@ -335,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81E14DAF2CDF93AA00449BF5 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81E14DB02CDF93AA00449BF5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E14DAF2CDF93AA00449BF5 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81E14D8F2CDF909D00449BF5 /* Project object */;
 }
